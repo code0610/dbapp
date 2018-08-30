@@ -35,6 +35,9 @@ export default {
       this.tabs[index].isShow = true;
       this.$router.push(this.tabs[index].toUrl);
     }
+  },
+  mounted:function(){
+    this.$router.push("home")
   }
 }
 </script>
@@ -49,6 +52,7 @@ export default {
     height: 64px;
     background-color: #f3f1f1;
     border-top: solid 1px #d4cfcf;
+    z-index: 99999;
   }
   .app-foot-item{
     display: flex;

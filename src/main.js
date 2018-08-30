@@ -5,8 +5,12 @@ import App from './App'
 import router from './router'
 import iView from "iview"
 import 'iview/dist/styles/iview.css'
+import vueResource from 'vue-resource'
+//import util from "./util/util"
 
 Vue.use(iView)
+Vue.use(vueResource)
+//Vue.use(util)
 
 Vue.config.productionTip = false
 
